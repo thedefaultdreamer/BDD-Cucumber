@@ -1,0 +1,446 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2023-05-20T07:14:33.413Z",
+        "line": 11,
+        "name": "To add two numbers and validate the results are coming fine using parameter",
+        "description": "",
+        "id": "this-feature-will-allow-you-do-to-all-the-calculator-operations-using-parameters;to-add-two-numbers-and-validate-the-results-are-coming-fine-using-parameter;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I have two numbers 5 and 7",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 19
+                },
+                {
+                  "val": "7",
+                  "offset": 25
+                }
+              ],
+              "location": "stepdefs.CalculatorStepDef.i_have_two_numbers_and(int,int)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I add those two numbers",
+            "match": {
+              "location": "stepdefs.CalculatorStepDef.i_add_those_two_numbers()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I should get the result as 12",
+            "match": {
+              "arguments": [
+                {
+                  "val": "12",
+                  "offset": 27
+                }
+              ],
+              "location": "stepdefs.CalculatorStepDef.i_should_get_the_result_as(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Calculator"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-05-20T07:14:33.567Z",
+        "line": 12,
+        "name": "To add two numbers and validate the results are coming fine using parameter",
+        "description": "",
+        "id": "this-feature-will-allow-you-do-to-all-the-calculator-operations-using-parameters;to-add-two-numbers-and-validate-the-results-are-coming-fine-using-parameter;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I have two numbers 4 and 4",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 19
+                },
+                {
+                  "val": "4",
+                  "offset": 25
+                }
+              ],
+              "location": "stepdefs.CalculatorStepDef.i_have_two_numbers_and(int,int)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I add those two numbers",
+            "match": {
+              "location": "stepdefs.CalculatorStepDef.i_add_those_two_numbers()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I should get the result as 8",
+            "match": {
+              "arguments": [
+                {
+                  "val": "8",
+                  "offset": 27
+                }
+              ],
+              "location": "stepdefs.CalculatorStepDef.i_should_get_the_result_as(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Calculator"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-05-20T07:14:33.585Z",
+        "line": 13,
+        "name": "To add two numbers and validate the results are coming fine using parameter",
+        "description": "",
+        "id": "this-feature-will-allow-you-do-to-all-the-calculator-operations-using-parameters;to-add-two-numbers-and-validate-the-results-are-coming-fine-using-parameter;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I have two numbers 15 and 12",
+            "match": {
+              "arguments": [
+                {
+                  "val": "15",
+                  "offset": 19
+                },
+                {
+                  "val": "12",
+                  "offset": 26
+                }
+              ],
+              "location": "stepdefs.CalculatorStepDef.i_have_two_numbers_and(int,int)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I add those two numbers",
+            "match": {
+              "location": "stepdefs.CalculatorStepDef.i_add_those_two_numbers()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I should get the result as 27",
+            "match": {
+              "arguments": [
+                {
+                  "val": "27",
+                  "offset": 27
+                }
+              ],
+              "location": "stepdefs.CalculatorStepDef.i_should_get_the_result_as(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Calculator"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-05-20T07:14:33.612Z",
+        "line": 15,
+        "name": "This scenario will validate addition of multiple numbers",
+        "description": "",
+        "id": "this-feature-will-allow-you-do-to-all-the-calculator-operations-using-parameters;this-scenario-will-validate-addition-of-multiple-numbers",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I have below numbers",
+            "match": {
+              "location": "stepdefs.CalculatorStepDef.i_have_below_numbers(java.util.List\u003cjava.lang.Integer\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "6"
+                ]
+              },
+              {
+                "cells": [
+                  "5"
+                ]
+              },
+              {
+                "cells": [
+                  "3"
+                ]
+              },
+              {
+                "cells": [
+                  "8"
+                ]
+              },
+              {
+                "cells": [
+                  "2"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I add those numbers",
+            "match": {
+              "location": "stepdefs.CalculatorStepDef.i_add_those_numbers()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I should get the result as 24",
+            "match": {
+              "arguments": [
+                {
+                  "val": "24",
+                  "offset": 27
+                }
+              ],
+              "location": "stepdefs.CalculatorStepDef.i_should_get_the_result_as(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Calculator"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-05-20T07:14:33.641Z",
+        "line": 25,
+        "name": "To calculate the total bill amount",
+        "description": "",
+        "id": "this-feature-will-allow-you-do-to-all-the-calculator-operations-using-parameters;to-calculate-the-total-bill-amount",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4000000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I want to buy below items",
+            "match": {
+              "location": "stepdefs.NewCalculatorStepDef.i_want_to_buy_below_items(java.util.Map\u003cjava.lang.String, java.lang.Integer\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Coffee",
+                  "20"
+                ]
+              },
+              {
+                "cells": [
+                  "Burger",
+                  "50"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I purchase them",
+            "match": {
+              "location": "stepdefs.NewCalculatorStepDef.i_purchase_them()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I should get the bill amount as 70",
+            "match": {
+              "arguments": [
+                {
+                  "val": "70",
+                  "offset": 32
+                }
+              ],
+              "location": "stepdefs.NewCalculatorStepDef.i_should_get_the_bill_amount_as(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Calculator"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-05-20T07:14:33.663Z",
+        "line": 32,
+        "name": "To calculate the total bill amount using quantity",
+        "description": "",
+        "id": "this-feature-will-allow-you-do-to-all-the-calculator-operations-using-parameters;to-calculate-the-total-bill-amount-using-quantity",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I want to buy below items in given quantity",
+            "match": {
+              "location": "stepdefs.NewCalculatorStepDef.i_want_to_buy_below_items_in_given_quantity(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Coffee",
+                  "2",
+                  "20"
+                ]
+              },
+              {
+                "cells": [
+                  "Burger",
+                  "3",
+                  "50"
+                ]
+              },
+              {
+                "cells": [
+                  "GarlicBread",
+                  "1",
+                  "15"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I should get the bill amount as 205",
+            "match": {
+              "arguments": [
+                {
+                  "val": "205",
+                  "offset": 32
+                }
+              ],
+              "location": "stepdefs.NewCalculatorStepDef.i_should_get_the_bill_amount_as(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Calculator"
+          }
+        ]
+      }
+    ],
+    "name": "This feature will allow you do to all the calculator operations using parameters",
+    "description": "",
+    "id": "this-feature-will-allow-you-do-to-all-the-calculator-operations-using-parameters",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/NewCalculator.feature",
+    "tags": [
+      {
+        "name": "@Calculator",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
